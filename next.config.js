@@ -5,6 +5,10 @@
 import "./src/env.js";
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  allowedDevOrigins: [
+    "https://radios-display-breathing-fioricet.trycloudflare.com",
+  ],
+};
 
 export default config;
